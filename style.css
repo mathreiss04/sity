@@ -1,0 +1,219 @@
+body{
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	background-color: rgb(54, 54, 54, 0.3);
+	padding: 0.5em 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+main {
+	font-family: "Montserrat", "Arial", sans-serif;
+	margin-top: 10%;
+}
+
+.logo, .barra-nav, .menu-principal {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+	margin-left: 2%;
+}
+
+.barra-nav{
+	float: right;
+	font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.menu-principal {
+	list-style-type: none;
+}
+.menu-principal li {
+    float: left;
+	padding: 1em;
+}
+.menu-principal a {
+	display: block;
+		padding-right: 1em;
+		margin-right: 1em;
+
+		line-height: 1;
+		text-decoration: none;
+		
+		font-size: 1.0em;
+		font-family: "Montserrat", "Arial", sans-serif;
+		color: white;
+}
+.menu-principal a:hover {
+	opacity: 0.8;
+}
+
+.barra-nav {
+}
+
+.sity{
+	text-align: center;
+	font-size: 2em;
+	color: rgb(0, 206, 209);
+	line-height: 1.5;
+}
+
+.valores {
+	width: 100%;
+	text-align: top;
+	color: rgb(0, 0, 50);
+	background-color: rgb(0, 206, 209);
+	margin: 10% 0;
+	padding: 5% 0;
+	line-height: 1.5;
+}
+.valores li {
+	box-sizing: border-box;
+	margin: 0 1%;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	text-align: justify;
+	padding: 1%;
+	color: white;
+}
+.valores h2 {
+	text-transform: uppercase;
+	border-bottom: 0.1em rgb(0, 0, 50) solid;
+}
+.valores p {
+	font-size: 0.8em;
+}
+
+.passageiro {
+	margin-bottom: 10%;
+}
+.passageiro h2, h3 {
+	text-align: center;
+	color: rgb(0, 206, 209);
+}
+.passageiro h2 {
+	font-size: 3em;
+}
+.passageiro h3{
+	font-size: 1em;
+}
+.passageiro li {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	box-sizing: border-box;
+	margin: 0 1%;
+	padding: 1%;
+}
+.itens-passageiro h2{
+	font-size: 1.5em;
+	text-align: justify;
+}
+.itens-passageiro p{
+	color: rgb(0, 0, 50);
+}
+#subtitulo-vantagens {
+	color: rgb(0, 206, 209);
+}
+
+.empresa {
+	margin-bottom: 10%
+}
+.empresa-header{
+	margin-bottom: 5%;
+}
+.empresa-header h2, h3{
+	text-align: center;
+	color: rgb(205, 38, 38);
+	line-height: 1.5;
+}
+.empresa-header h2 {
+	font-size: 3em;
+}
+.empresa-header h3{
+	font-size: 2em;
+}
+.empresa li {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	box-sizing: border-box;
+	margin: 0 1%;
+	padding: 1%;
+	text-align: center;
+}
+.itens-empresa h2{
+	font-size: 1.5em;
+	text-align: justify;
+	text-align: center;
+	color: white;
+}
+.empresa-main{
+	background-color: rgb(205, 38, 38);
+	color: white;
+}
+
+.motorista{
+	text-align: center;
+	font-size: 2em;
+	color: rgb(127, 255, 0);
+	line-height: 1.5;
+}
+.motorista-header {
+	margin-bottom: 5%
+}
+.motorista-main h2{
+	font-size: 1.3em;
+}
+.motorista-main p{
+	font-size: 0.7em;
+}
+.motorista li {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	box-sizing: border-box;
+	margin: 0 1%;
+	padding: 1%;
+	text-align: justify;
+	color: white;
+}
+.itens-motorista {
+	background-color: rgb(127, 255, 0);
+}
+.itens-motorista h2{
+	font-size: 0.7em;
+}
+.itens-motorista p{
+	font-size: 0.5em;
+}
+
+.baixe-app{
+	text-align: center;
+	background-color: rgb(0,0,0);
+	color: white;
+	padding: 5%;
+	margin-bottom: 10%;
+}
+.baixe-app li {
+	display: inline-block;
+	vertical-align: top;
+}
+.baixe-app h2{
+	font-size: 2em;
+}
+.baixe-app p{
+	font-size: 4em;
+}
+.baixe-app-header {
+	line-height: 1%;
+}
+.store img{
+	width: 4em;
+}

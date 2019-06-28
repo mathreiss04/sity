@@ -1,0 +1,124 @@
+@media (max-width: 600px){
+	main {
+		margin-top: 30%;
+	}
+	
+	.valores li {
+		display: block;
+		width: 90%;
+	}
+	
+	.passageiro li{
+		display: block;
+		width: 90%;
+	}
+	.passageiro h2 {
+		font-size: 2em;
+	}
+	
+	.empresa li{
+		display: block;
+		width: 90%;
+	}
+	
+	.motorista li{
+		display: block;
+		width: 90%;
+	}
+	
+	.baixe-app h2 {
+		font-size: 1em;
+	}
+	.baixe-app p {
+		font-size: 2em;
+	}
+	.baixe-app img {
+		width: 2.5em;
+	}
+	.baixe-app li {
+		padding: 1em;
+	}
+}
+
+@media (max-width: 600px) {
+    .barra-nav {
+        background: #008B8B;
+        padding: 1em;
+        margin: 0;
+
+        height: 100%;
+        width: 60%;
+        max-width: 320px;
+
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -100%;
+
+        transition: left 0.3s ease-out;
+    }
+        .menu-ativo .barra-nav {
+            left: 0;
+        }
+
+    .menu-principal li {
+        padding: 1em 0;
+        width: 100%;
+    }
+}
+
+@media not all and (max-width: 600px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }    
+}
+
+@media (max-width: 600px) {
+    .menu-ativo:after {
+        content: "";
+        display: block;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        background: rgba(0,0,0,0.4);
+    }
+}
+
+.menu-abrir,
+.menu-fechar {
+    background: none;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    font-size: 1.6em;
+    text-indent: -999em;
+}
+
+.menu-abrir {
+    height: 0;
+    width:.75em;
+    padding-top:.125em;
+    border-top: .375em double #000;
+    border-bottom: .125em solid #000;
+
+    vertical-align: middle;
+    margin: 0.5em;    
+}
+
+.menu-fechar {
+    position: relative;
+    height: 1em;
+    width: 1em;
+}
+    .menu-fechar:before {
+        content: '\00D7';
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-indent: 0;
+    }
